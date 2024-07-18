@@ -1,0 +1,46 @@
+/* responsive for mobile device */
+@media screen and (max-width:576px) {
+    .nav-bar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .nav-menu{
+        display:contents;
+    }
+    .nav-menu img{
+        width: 24px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-contant{
+        
+    }
+    .banner-title{
+        font-size: 2.25rem;
+        width: 60%;
+        padding-left: 20px;
+    }
+    .banner-description{
+        width: 65%;
+        padding-left: 20px;
+    }
+    .banner-image-content-2{
+        top: 50%;
+        left: 0%;
+    }
+    .banner-image-content-1{
+        top: 10%;
+        left: 48%;
+    }
+    .banner-btn-1,.banner-btn-2{
+        padding:13px 35px;
+        margin-left: 10px;
+        margin-right: 0px;
+        font-weight: 400;
+        max-width: 45%;
+    }
+}

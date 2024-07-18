@@ -71,7 +71,7 @@ header{
     align-items: center;
     gap: 57px;
 }
-.bannercontant{
+.banner-contant{
     width: calc((100% - 57px) / 2);
 }
 .banner-title{
