@@ -51,4 +51,18 @@
     .habit-title{
         font-size: 2rem;
     }
+    .run{
+        padding: 35px 33px;
+        margin: 0px 20px;
+    }
+    .run-container{
+        flex-direction: column;
+        gap: 31px;
+    }
+    .run-btn{
+        width: 100%;
+    }
+    .run-image{
+        width: 100%;
+    }
 }

@@ -209,3 +209,45 @@ font-weight: 900;
 .habit-card-image{
     border-radius: 50%;
 }
+/* run section style */
+.run{
+    max-width: 1060px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px 32px 29px 54px;
+}
+.run-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 165px;
+}
+
+.run-contant-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.run-contant-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    margin: 14px 0px 34px;
+}
+.run-btn{
+    padding: 16px 40px 16px 40px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    width: 50%;
+}
+.run-image{
+    width: 88%;
+}
+.run-image img{
+    border-radius: 18px;
+    width: 100%;
+}
