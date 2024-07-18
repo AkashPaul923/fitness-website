@@ -16,9 +16,9 @@
     .banner-container{
         flex-direction: column;
     }
-    .banner-contant{
+    /* .banner-contant{
         
-    }
+    } */
     .banner-title{
         font-size: 2.25rem;
         width: 60%;
