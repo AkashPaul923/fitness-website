@@ -65,4 +65,17 @@
     .run-image{
         width: 100%;
     }
+    .meet{
+        padding: 66px 33px;
+    }
+    .meet-title{
+        font-size: 2rem;
+    }
+    .meet-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .meet-image{
+        max-height: 272px;
+        height: 100%;
+    }
 }
