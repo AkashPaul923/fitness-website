@@ -78,4 +78,25 @@
         max-height: 272px;
         height: 100%;
     }
+
+
+
+
+
+
+    .footer{
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-links{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-branding{
+        max-width: 100%;
+    }
 }
