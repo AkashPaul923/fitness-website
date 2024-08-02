@@ -65,6 +65,26 @@
     .run-image{
         width: 100%;
     }
+
+    .bmi-part1,
+    .bmi-contant{
+        margin: 0px 20px;
+    }
+    .bmi-contant{
+        flex-direction: column;
+    }
+    .bmi-calculator {
+        max-width: 100%;
+    }
+    .bmi-title{
+        font-size: 2rem;
+    }
+    .bmi-calculator input,
+    .bmi-calculator select{
+        width: 45%;
+        padding: 12px 0px 12px 3.472vw;
+    }
+
     .meet{
         padding: 66px 33px;
     }

@@ -252,6 +252,114 @@ font-weight: 900;
     width: 100%;
 }
 
+/* BMI section style */
+.bmi-part1{
+    max-width: 671px;
+    margin: 0 auto;
+    padding: 88px 0px;
+}
+.bmi-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    max-width: 600px;
+    line-height: 24px;
+}
+.bmi-container{
+    background: rgb(34, 34, 34);
+}
+.bmi-contant{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 52px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.bmi-chart{
+    
+}
+.bmi-chart-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+.bmi-chart-table{
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+.bmi-chart-table th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 9px 27px 15px 17px;
+}
+.bmi-chart-table td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    line-height: 120%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 9px 27px 15px 17px;
+}
+.bmi-calculator{
+    max-width: 54%;
+}
+.bmi-calculator-title{
+    color: white;
+    font-size: 1.758rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.bmi-calculator-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 34px;
+}
+.bmi-calculator input,
+.bmi-calculator select{
+    width: 45.5%;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 0px 12px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+#sex-select{
+    width: 49.5%;
+}
+#activity-select{
+    width: 99.5%;
+}
+.bmi-button{
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 22px;
+    width: 42%;
+    margin-top: 50px;
+}
+    
 /* meet section style */
 .meet{
     max-width: 1060px;
