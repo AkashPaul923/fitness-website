@@ -99,7 +99,17 @@
         height: 100%;
     }
 
+    .unique{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
+    .unique-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .unique-title{
+        font-size: 1.75rem;
+    }
 
 
 
